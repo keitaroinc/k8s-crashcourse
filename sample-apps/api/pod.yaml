@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: our-api
+   labels:
+     app: api
+spec:
+   containers:
+   - name: api
+     image: api:latest
+     imagePullPolicy: Never
+

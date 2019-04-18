@@ -1,0 +1,6 @@
+kashti:
+  ingress:
+    enabled: true
+    hosts:
+    - kashti.crashcourse
+

@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: backend
+spec:
+  rules:
+  - host: backend.crashcourse
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: backend
+          servicePort: 8080

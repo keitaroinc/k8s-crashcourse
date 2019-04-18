@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: dependant-app
+   labels:
+     app: dependant-app
+spec:
+   containers:
+   - name: dependante-app
+     image: dependant-app:0.1
+     env:
+     - name: SAMPLE_APP
+       value: http://sample-app:8081
+

@@ -1,0 +1,13 @@
+serviceType: NodePort
+debug:
+  enabled: true
+rbac:
+  enabled: true
+dashboard:
+  enabled: true
+  domain: traefik.crashcourse
+persistence:
+  enabled: false
+acme:
+  enabled: false
+

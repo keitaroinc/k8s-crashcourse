@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: api
+spec:
+  rules:
+  - host: api.crashcourse
+    http:
+      paths:
+      - path: /hows-the-weather
+        backend:
+          serviceName: api
+          servicePort: 8081
