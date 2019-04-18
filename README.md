@@ -1,4 +1,4 @@
-# Kubernetes Crash Micrcourse
+# Kubernetes Crash Course
 
 A very short course that aims to uncover basic principles and methodologies for using Kubernetes. The aim is to achieve that with a practical example for setting up services that talk to each other and using [Helm](https://helm.sh/) to setup [Traefik](https://traefik.io/) and [Brigade](https://brigade.sh/) in order to create a simple CD pipelnie.
 
