@@ -112,7 +112,7 @@ Now that we don't depend on a `NodePort` to access our `api`, we can scale it by
 
 ```console
 $ kubectl delete -f sample-apps/api/pod.yaml 
-$ kubectl create -f kubectl delete -f sample-apps/api/deployment.yaml
+$ kubectl delete -f sample-apps/api/deployment.yaml
 ```
 
 Also, let's deploy the `Ingress` object that instructs `Traefik` how to route to the `api`
