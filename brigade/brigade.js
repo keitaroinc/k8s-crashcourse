@@ -1,3 +1,11 @@
+/*
+Copyright (c) 2019 Keitaro AB
+
+Use of this source code is governed by an MIT license
+that can be found in the LICENSE file or at
+https://opensource.org/licenses/MIT.
+*/
+
 const { events, Job } = require("brigadier");
 
 events.on("push", function(e, project) {
@@ -39,4 +47,5 @@ events.on("deploy", function(e, project) {
   deploy.streamLogs = true;
   deploy.run();
 })
+
 
